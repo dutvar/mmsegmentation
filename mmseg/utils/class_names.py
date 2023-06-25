@@ -2,6 +2,12 @@
 from mmengine.utils import is_str
 
 
+def hubmap_classes():
+    return [
+        'blood vessels'
+    ]
+
+
 def cityscapes_classes():
     """Cityscapes class names for external use."""
     return [
@@ -246,6 +252,12 @@ def mapillary_v2_palette():
             [111, 111, 0], [0, 0, 0]]
 
 
+def hubmap_palette():
+    return [
+        [128, 128, 128]
+    ]
+
+
 def cityscapes_palette():
     """Cityscapes palette for external use."""
     return [[128, 64, 128], [244, 35, 232], [70, 70, 70], [102, 102, 156],
@@ -420,6 +432,7 @@ def lip_palette():
 
 
 dataset_aliases = {
+    'hubmap':['hubmap']
     'cityscapes': ['cityscapes'],
     'ade': ['ade', 'ade20k'],
     'voc': ['voc', 'pascal_voc', 'voc12', 'voc12aug'],
