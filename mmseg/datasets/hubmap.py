@@ -15,7 +15,7 @@ class HubmapDataset(BaseSegDataset):
     def __init__(self,
                  img_suffix='.jpg',
                  seg_map_suffix='_label.png',
-                 reduce_zero_label=True,
+                 reduce_zero_label=False,
                  **kwargs) -> None:
 
         super().__init__(
