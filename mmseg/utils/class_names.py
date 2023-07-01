@@ -254,7 +254,7 @@ def mapillary_v2_palette():
 
 def hubmap_palette():
     return [
-        [0], [255]
+        [0,0,0], [255,255,255]
     ]
 
 
