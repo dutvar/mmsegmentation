@@ -8,7 +8,7 @@ class HubmapDataset(BaseSegDataset):
 
     METAINFO = dict(
         classes=('BG','blood vessels'),
-        palette=[])
+        palette=[[0,0,0], [255,0,0]])
 
 
 
