@@ -7,7 +7,7 @@ from .basesegdataset import BaseSegDataset
 class HubmapDataset(BaseSegDataset):
 
     METAINFO = dict(
-        classes=('blood vessels'),
+        classes=('BG','blood vessels'),
         palette=[])
 
 
