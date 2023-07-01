@@ -1,6 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 # yapf: disable
-from .hubmap import HUBMAPDATASET
+from .hubmap import HubmapDataset
 from .ade import ADE20KDataset
 from .basesegdataset import BaseSegDataset
 from .chase_db1 import ChaseDB1Dataset

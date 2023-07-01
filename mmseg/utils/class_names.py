@@ -432,7 +432,7 @@ def lip_palette():
 
 
 dataset_aliases = {
-    'hubmap':['hubmap']
+    'hubmap':['hubmap', 'hubmap_dataset']
     'cityscapes': ['cityscapes'],
     'ade': ['ade', 'ade20k'],
     'voc': ['voc', 'pascal_voc', 'voc12', 'voc12aug'],

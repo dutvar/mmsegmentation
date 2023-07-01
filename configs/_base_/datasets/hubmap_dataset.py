@@ -1,5 +1,5 @@
 # dataset settings
-dataset_type = 'HUBMAPDATASET'
+dataset_type = 'HubmapDataset'
 data_root = './'
 crop_size = (512, 512)
 train_pipeline = [

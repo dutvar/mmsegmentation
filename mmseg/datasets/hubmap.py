@@ -4,15 +4,11 @@ from .basesegdataset import BaseSegDataset
 
 
 @DATASETS.register_module()
-class HUBMAPDATASET(BaseSegDataset):
-
-
-    classes = ('blood vessels')
-    palette = [[128, 128, 128]]
+class HubmapDataset(BaseSegDataset):
 
     METAINFO = dict(
-        classes=classes,
-        palette=palette)
+        classes=('blood vessels'),
+        palette=[[128, 128, 128]])
 
 
 
